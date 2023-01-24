@@ -1,0 +1,625 @@
+{
+  "data": {
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-05-06T09:16:45.300Z"
+      }
+    },
+    "display-name": "DC-MUM-HUB-PVT-RT-01",
+    "freeform-tags": {},
+    "id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaauo654sagogytoofvpgic5xsdohqrxfoc5vx24ovqv43n5tdq3vda",
+    "lifecycle-state": "AVAILABLE",
+    "route-rules": [
+      {
+        "cidr-block": null,
+        "description": "MGMT-VCN through NFW",
+        "destination": "10.10.10.0/24",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route to IFFCO HO Network",
+        "destination": "10.11.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route to IFFCO HO Network",
+        "destination": "10.12.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route to Hyderabad Site\t",
+        "destination": "10.30.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route to Internet from ChecPoint Backend Cluster IP",
+        "destination": "0.0.0.0/0",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.aaaaaaaacebgdiju2glfum3vcrtbixzr2c7oawxwjyiidxvvzihxsddppoya",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "KANDLA",
+        "destination": "10.22.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "KALOL",
+        "destination": "10.23.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "PHULPUR",
+        "destination": "10.24.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "AONLA",
+        "destination": "10.25.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "PARADEEP",
+        "destination": "10.26.0.0/16",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route to EBS-PROD-VCN via NFW",
+        "destination": "10.10.4.0/23",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "IFFCOINDIA Tenancy",
+        "destination": "10.80.1.0/24",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "OCI Object Storage Mumbai Region",
+        "destination": "oci-bom-objectstorage",
+        "destination-type": "SERVICE_CIDR_BLOCK",
+        "network-entity-id": "ocid1.servicegateway.oc1.ap-mumbai-1.aaaaaaaadzbhiwz2h4unupdt6eva2qhvsxazrb25lgewgfwe4ddae5gbztwq",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "OCI Object Storage Hyderabad Region",
+        "destination": "134.70.120.0/22",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route to DIGITAL-VCN via NFW",
+        "destination": "10.10.6.0/23",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "LGC-PROD-VCN via OCI NFW",
+        "destination": "10.10.8.0/24",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      }
+    ],
+    "time-created": "2021-05-06T09:16:45.315000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqacdgq5clr6menfmpnzwxug5roosx7pmsd3rgowcvp6gja"
+  },
+  "etag": "299b0a8e"
+}
+{
+  "data": {
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/karthik.k.mani@oracle.com",
+        "CreatedOn": "2023-01-03T09:20:46.506Z"
+      }
+    },
+    "display-name": "DC-MUM-HUB-NFWPVT-RT-01",
+    "freeform-tags": {},
+    "id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaa336oytprbxbfgwuxggtl3qilkftihfg2at545vwt4l6xlhj5bteq",
+    "lifecycle-state": "AVAILABLE",
+    "route-rules": [
+      {
+        "cidr-block": null,
+        "description": null,
+        "destination": "0.0.0.0/0",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.aaaaaaaacebgdiju2glfum3vcrtbixzr2c7oawxwjyiidxvvzihxsddppoya",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route to Private IFFCO Network",
+        "destination": "10.0.0.0/8",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.drg.oc1.ap-mumbai-1.aaaaaaaakvibv6zsiqtjr6bvh5smjdwuntcbg2dqvfcckt5ibzrikfsbdiuq",
+        "route-type": "STATIC"
+      }
+    ],
+    "time-created": "2023-01-03T09:20:46.516000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqacdgq5clr6menfmpnzwxug5roosx7pmsd3rgowcvp6gja"
+  },
+  "etag": "bd80ca6c"
+}
+{
+  "data": {
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-12-06T05:36:29.751Z"
+      }
+    },
+    "display-name": "HUB-VCN to EBS-PROD-VCN",
+    "freeform-tags": {},
+    "id": "ocid1.localpeeringgateway.oc1.ap-mumbai-1.aaaaaaaa5n4wotecqp7myez2tz7zugywy46liluitxomat4y2jmmvg2x52ma",
+    "is-cross-tenancy-peering": false,
+    "lifecycle-state": "AVAILABLE",
+    "peer-advertised-cidr": "10.10.4.0/23",
+    "peer-advertised-cidr-details": [
+      "10.10.4.0/23"
+    ],
+    "peer-id": "ocid1.localpeeringgateway.oc1.ap-mumbai-1.aaaaaaaalbp6qydm3zsdckv33eeslf2xesw553doztb6olpmfdeozj2xaaea",
+    "peering-status": "PEERED",
+    "peering-status-details": "Connected to a peer.",
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaanwq73lz6es4lnldmwr6pgkwexjcn54mka7zidfrhd3dhj7dlbrpq",
+    "time-created": "2021-12-06T05:36:29.875000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqacdgq5clr6menfmpnzwxug5roosx7pmsd3rgowcvp6gja"
+  },
+  "etag": "7de13455"
+}
+{
+  "data": {
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-05-18T11:50:50.904Z"
+      }
+    },
+    "display-name": "DC-MUM-DRG-ATTACHED-ROUTES",
+    "freeform-tags": {},
+    "id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaayrfv6ju6nqbpthpoxizq5vdzh74zszqsljwa64vydmdxfw44rh3q",
+    "lifecycle-state": "AVAILABLE",
+    "route-rules": [
+      {
+        "cidr-block": null,
+        "description": "EBS-PROD-VCN",
+        "destination": "10.10.4.0/23",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Non-Prod",
+        "destination": "10.10.6.0/23",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "LGC-PROD-VCN",
+        "destination": "10.10.8.0/24",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Mgmt",
+        "destination": "10.10.10.0/24",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Oracle Services Network Mumbai",
+        "destination": "all-bom-services-in-oracle-services-network",
+        "destination-type": "SERVICE_CIDR_BLOCK",
+        "network-entity-id": "ocid1.servicegateway.oc1.ap-mumbai-1.aaaaaaaadzbhiwz2h4unupdt6eva2qhvsxazrb25lgewgfwe4ddae5gbztwq",
+        "route-type": "STATIC"
+      },
+      {
+        "cidr-block": null,
+        "description": "Route for Public LBaaS towards NFW",
+        "destination": "10.10.3.128/25",
+        "destination-type": "CIDR_BLOCK",
+        "network-entity-id": "ocid1.privateip.oc1.ap-mumbai-1.abrg6ljrkm4urju2dipfys2b2stemracoin7dt3mrcdhegnmbvnmsxutg4za",
+        "route-type": "STATIC"
+      }
+    ],
+    "time-created": "2021-05-18T11:50:50.916000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqacdgq5clr6menfmpnzwxug5roosx7pmsd3rgowcvp6gja"
+  },
+  "etag": "f6831700"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.5.0/26",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-05-06T09:25:43.648Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaans552ncnfhc74bvszksx2dsalohziew3mwkt6uzxrplzu7svr6lq",
+    "display-name": "DC-MUM-EBS-PRD-SN-01",
+    "dns-label": "dcmumebsprdsn01",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaaoh6zjxej53atpx3cwtnmrgw6tvbwubecncqdquty7vjcuyixo4oq",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaawa3ymtaj5mqovq24olx5pb4rnmkc6hd4umhzlhcmc4uauwskqtoq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaaytbfb5pynbi54jyytx2wzslyo2fs6qez4hs4rr4gwlj27yxocmda",
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaa5tbwxxx2l23spmz7zv5lmlahdug54qrj43nxfipo4elck3x6cm2a",
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaa5u56anbtqo6og7eipuvrrxdjezjz7cqwnr5wau6vjzmjkew3trda",
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaa4mf2i3krcop6wj7vae47pf2zjxawl25tcdrwutskhbblfxdb3zda"
+    ],
+    "subnet-domain-name": "dcmumebsprdsn01.dcmumebsprodvcn.oraclevcn.com",
+    "time-created": "2021-05-06T09:25:43.682000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqajpb7fzlkcjmfjp5im3i36zsceikxok6hwtfwheiylpva",
+    "virtual-router-ip": "10.10.5.1",
+    "virtual-router-mac": "00:00:17:99:F2:D5"
+  },
+  "etag": "beabaa81"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.4.32/27",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-05-06T09:24:52.184Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaans552ncnfhc74bvszksx2dsalohziew3mwkt6uzxrplzu7svr6lq",
+    "display-name": "DC-MUM-DB-CLT-SN-01",
+    "dns-label": "dcmumdbcltsn01",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaasb6j7n27a7yw66mvdbnzgghdkvn2jzzcf6anjcdote67wvmytsza",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaawa3ymtaj5mqovq24olx5pb4rnmkc6hd4umhzlhcmc4uauwskqtoq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaatvw4ojfjq4zyn5ooue2usizgvkdptnxhoxrxf7ozwfzricouifbq",
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaaeetjqaad572baj6yg7joei4bsxvtor43qx7xaj6rkyqkmwvr32cq",
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaafqju7u3zyqj3qphv7o5i6wh2xspthxbzoabiuyrctmjldeulwfqq",
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaa663yhtrtrwedpyofihmuksxsugglf52m5jmy4pb65zpq56cxohia"
+    ],
+    "subnet-domain-name": "dcmumdbcltsn01.dcmumebsprodvcn.oraclevcn.com",
+    "time-created": "2021-05-06T09:24:52.251000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqajpb7fzlkcjmfjp5im3i36zsceikxok6hwtfwheiylpva",
+    "virtual-router-ip": "10.10.4.33",
+    "virtual-router-mac": "00:00:17:99:F2:D5"
+  },
+  "etag": "14984476"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.4.0/28",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-05-06T09:24:04.864Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaans552ncnfhc74bvszksx2dsalohziew3mwkt6uzxrplzu7svr6lq",
+    "display-name": "DC-MUM-DB-BKP-SN-01",
+    "dns-label": "dcmumdbbkpsn01",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaa4zfcetklnktudfgjjss47pulyf52lxm6wdyxft67giynph7zu27q",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaawa3ymtaj5mqovq24olx5pb4rnmkc6hd4umhzlhcmc4uauwskqtoq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaaw3rur2yc5kvhzcemuszzdvtqapkn7nwf7d2kjuml7nit6tw76yuq"
+    ],
+    "subnet-domain-name": "dcmumdbbkpsn01.dcmumebsprodvcn.oraclevcn.com",
+    "time-created": "2021-05-06T09:24:04.898000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqajpb7fzlkcjmfjp5im3i36zsceikxok6hwtfwheiylpva",
+    "virtual-router-ip": "10.10.4.1",
+    "virtual-router-mac": "00:00:17:99:F2:D5"
+  },
+  "etag": "5d80e6e"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.8.64/26",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/harish@iffco.in",
+        "CreatedOn": "2022-11-24T08:57:37.085Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaaz5iibrskak5ed5obdakq5j27unrmzkaxjlgsmsc54pqidpkgtf3a",
+    "display-name": "DC-MUM-NANO-PRD-SN-2",
+    "dns-label": "dcmumnanoprdsn2",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaas2mykut5k4jl237ucx2l5bfafndph4y44xw3uvwvjp5x4ntsf2ea",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaavjirlzrqwgt6hlaeyokjgfblqe5dusowpyy3tix4oqpsiyoaakea",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaawbopifsbstogeq4zcrmqg6ojvuzytdt2wv63gfoo5ormn55nzi3a"
+    ],
+    "subnet-domain-name": "dcmumnanoprdsn2.dcmumlgcprodvcn.oraclevcn.com",
+    "time-created": "2022-11-24T08:57:37.133000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqaoxq7kmzn4x2u46gdw5nxmfbwtwknllj75stoztyulfeq",
+    "virtual-router-ip": "10.10.8.65",
+    "virtual-router-mac": "00:00:17:17:D4:EE"
+  },
+  "etag": "dfeb0069"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.8.0/26",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-05-06T09:32:22.082Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaaz5iibrskak5ed5obdakq5j27unrmzkaxjlgsmsc54pqidpkgtf3a",
+    "display-name": "DC-MUM-LGC-PRD-SN-01",
+    "dns-label": "dcmumlgcprdsn01",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaa75auwdykpo534rvtt3ck65tnc6gqow3msadq37erjfdqvybtiosa",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaavjirlzrqwgt6hlaeyokjgfblqe5dusowpyy3tix4oqpsiyoaakea",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaacc7oafziojv57hcjfjwkwws4m25b5rfivfwyimggtf3b6pso25ba"
+    ],
+    "subnet-domain-name": "dcmumlgcprdsn01.dcmumlgcprodvcn.oraclevcn.com",
+    "time-created": "2021-05-06T09:32:22.114000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqaoxq7kmzn4x2u46gdw5nxmfbwtwknllj75stoztyulfeq",
+    "virtual-router-ip": "10.10.8.1",
+    "virtual-router-mac": "00:00:17:17:D4:EE"
+  },
+  "etag": "6b3b5d29"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.10.64/28",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oracleacs",
+        "CreatedOn": "2021-12-10T09:32:35.977Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaafrbjnytl3ic2j6vsffllawsobyshwrjnvuhjs6mnpejqozqbzgzq",
+    "display-name": "DC-MUM-SHARE-SN-02",
+    "dns-label": "dcmumembastion",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaax5ggel42uu75fi7kvg35prmqvtpnsn37xr4hddprc6wogdw2ipdq",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": false,
+    "prohibit-public-ip-on-vnic": false,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaaxn6hzeds2mwe262pv4zzooko3um2y3fl4almcnbdr27fjvnfd6sq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaagf5ykefxkvkurj63bi4tf3porb5gkacxhosuho4uqhhchaxvbazq"
+    ],
+    "subnet-domain-name": "dcmumembastion.dcmummgmtvcn.oraclevcn.com",
+    "time-created": "2021-12-10T09:32:36.300000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqawjel4bf3hs2wdgjkxr3wenwp6vjivcso4o6zhyeszlzq",
+    "virtual-router-ip": "10.10.10.65",
+    "virtual-router-mac": "00:00:17:1E:47:3D"
+  },
+  "etag": "493babd8"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.10.80/28",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oracleacs",
+        "CreatedOn": "2021-12-10T09:32:35.869Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaafrbjnytl3ic2j6vsffllawsobyshwrjnvuhjs6mnpejqozqbzgzq",
+    "display-name": "DC-MUM-EM-DB-SN",
+    "dns-label": "dcmumemdbsn",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaakso32ne3c37snz6c6bjnmaktxaciobxlvwaizgmmsh6af6fiou7q",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaalwdd6n7hau5igdxmq6olzdceeb246d6te52uz3w7lpreo3oed4pq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaa6fzo4w6aw7uyx6px2raz4oblyxv7mpjwde7an5pb5ydgvmfzaibq"
+    ],
+    "subnet-domain-name": "dcmumemdbsn.dcmummgmtvcn.oraclevcn.com",
+    "time-created": "2021-12-10T09:32:35.926000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqawjel4bf3hs2wdgjkxr3wenwp6vjivcso4o6zhyeszlzq",
+    "virtual-router-ip": "10.10.10.81",
+    "virtual-router-mac": "00:00:17:1E:47:3D"
+  },
+  "etag": "b287a45d"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.10.0/26",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/oraclep2p",
+        "CreatedOn": "2021-05-06T09:34:05.676Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaafrbjnytl3ic2j6vsffllawsobyshwrjnvuhjs6mnpejqozqbzgzq",
+    "display-name": "DC-MUM-MGMGT-SN-01",
+    "dns-label": "dcmummgmgtsn01",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaangwu5es5ifta6sl4cfghq3zctnnerai4ow2zymfd6dkjg4fci4cq",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaalwdd6n7hau5igdxmq6olzdceeb246d6te52uz3w7lpreo3oed4pq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaage5hx6te6hsctdgcqbunj2todisroezbi36hokf26fhwvkb2ibrq"
+    ],
+    "subnet-domain-name": "dcmummgmgtsn01.dcmummgmtvcn.oraclevcn.com",
+    "time-created": "2021-05-06T09:34:05.707000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqawjel4bf3hs2wdgjkxr3wenwp6vjivcso4o6zhyeszlzq",
+    "virtual-router-ip": "10.10.10.1",
+    "virtual-router-mac": "00:00:17:1E:47:3D"
+  },
+  "etag": "4c8cf7d"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.7.0/26",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/harish@iffco.in",
+        "CreatedOn": "2022-05-10T13:11:04.946Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaae3btrfodoievb333cwii6dkqllywtjukbltzgsdsfitihkswlpwq",
+    "display-name": "DC-MUM-ODA-MCS-SN-01",
+    "dns-label": "dcmumodamcssn01",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaancplyfxbshpyrexxtktalvmfxvkcydvnqqyridzzu44akkslokfa",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaa7swgxcwxof7x44d2hkib4zx27dgvwkw6nowjziqcrbzri62xmgpq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaa63ep7dywjkuxwu6g5mdwuc4alnyi2jm4otsalsrilbhtsus7eypa"
+    ],
+    "subnet-domain-name": "dcmumodamcssn01.dcmumdigitalvcn.oraclevcn.com",
+    "time-created": "2022-05-10T13:11:04.993000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqaduzkubcue2hxlixv25siyx7rn3pbnis6fcrhls6micrq",
+    "virtual-router-ip": "10.10.7.1",
+    "virtual-router-mac": "00:00:17:2C:64:6E"
+  },
+  "etag": "6eff422a"
+}
+{
+  "data": {
+    "availability-domain": null,
+    "cidr-block": "10.10.6.0/26",
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaanrkyegkvrtvdf3vmazgp7mig72ge6vdokurwuic247b7bvydripa",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "oracleidentitycloudservice/harish@iffco.in",
+        "CreatedOn": "2022-05-10T13:10:09.976Z"
+      }
+    },
+    "dhcp-options-id": "ocid1.dhcpoptions.oc1.ap-mumbai-1.aaaaaaaae3btrfodoievb333cwii6dkqllywtjukbltzgsdsfitihkswlpwq",
+    "display-name": "DC-MUM-IFFCOBOT-SN",
+    "dns-label": "dcmumiffcobotsn",
+    "freeform-tags": {},
+    "id": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaa6qwmojqfgljxh7fzzfw4mbkpzoet7i5kedjt3beytu7gsuibpfaq",
+    "ipv6-cidr-block": null,
+    "ipv6-cidr-blocks": null,
+    "ipv6-virtual-router-ip": null,
+    "lifecycle-state": "AVAILABLE",
+    "prohibit-internet-ingress": true,
+    "prohibit-public-ip-on-vnic": true,
+    "route-table-id": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaa7swgxcwxof7x44d2hkib4zx27dgvwkw6nowjziqcrbzri62xmgpq",
+    "security-list-ids": [
+      "ocid1.securitylist.oc1.ap-mumbai-1.aaaaaaaakx2yv6k7s7lmiqoyezrdfzxunveoqpjrlnncbgolad3hak4lqtua"
+    ],
+    "subnet-domain-name": "dcmumiffcobotsn.dcmumdigitalvcn.oraclevcn.com",
+    "time-created": "2022-05-10T13:10:10.147000+00:00",
+    "vcn-id": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaanssp6aqaduzkubcue2hxlixv25siyx7rn3pbnis6fcrhls6micrq",
+    "virtual-router-ip": "10.10.6.1",
+    "virtual-router-mac": "00:00:17:2C:64:6E"
+  },
+  "etag": "8a71c65c"
+}
